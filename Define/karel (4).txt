@@ -1,0 +1,63 @@
+iniciar-programa
+    define-nueva-instruccion media-vuelta como
+    	inicio
+        	gira-izquierda;
+        	gira-izquierda;
+        fin;    
+    define-nueva-instruccion L como
+    	inicio
+        	avanza;
+        	deja-zumbador;    
+        	avanza;
+        	deja-zumbador;    
+        	avanza;
+        	deja-zumbador;    
+        	avanza;
+        	deja-zumbador;    
+        	media-vuelta;    
+        	avanza;
+        	avanza;
+        	avanza;
+        	gira-izquierda;    
+        	avanza;
+        	deja-zumbador;
+        	avanza;    
+        	deja-zumbador;
+        	avanza;    
+        fin;
+    define-nueva-instruccion H como
+    	inicio
+        	avanza;
+        	deja-zumbador;
+        	gira-izquierda;
+            avanza;
+            deja-zumbador;
+            avanza;
+            deja-zumbador;
+            avanza;
+            deja-zumbador;
+            media-vuelta;
+            avanza;
+            avanza;
+            gira-izquierda;
+            avanza;
+            deja-zumbador;
+            avanza;
+            deja-zumbador;
+            gira-izquierda;
+            avanza;
+            deja-zumbador;
+            avanza;
+            deja-zumbador;
+            media-vuelta;
+            avanza;
+            avanza;
+            avanza;
+            deja-zumbador;
+        fin;
+    inicia-ejecucion
+      L;  
+      H;
+        apagate;
+    termina-ejecucion
+finalizar-programa
